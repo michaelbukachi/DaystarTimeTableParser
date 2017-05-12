@@ -4,12 +4,15 @@ import java.util.Date;
 
 
 public class Event {
+    public String title;
     public Date date;
     public String day;
     public String location;
 
     @Override
     public String toString() {
-        return "Event{" + "date=" + date + ", location=" + location + '}';
+        return "Event{" + "title=" + title + ", date=" + date + ", location=" + location + '}';
     }
+
+    
 }
